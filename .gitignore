@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.env
+.env.*
+*.key
+secrets.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
