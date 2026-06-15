@@ -8,6 +8,7 @@ env/
 .env
 .env.*
 *.key
+*.mp4
 secrets.*
 .vscode/
 .idea/
