@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "advent-week4-assistant"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["requests", "rich", "prompt_toolkit"]
+
+[project.scripts]
+agent15 = "day15:main"
+
+[tool.setuptools]
+py-modules = [
+    "day15",
+    "invariants",
+    "memory",
+    "profile",
+    "prompt_builder",
+    "state",
+    "swarm",
+    "validator",
+]
