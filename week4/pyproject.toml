@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "advent-week4-agent"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["mcp", "requests", "rich", "prompt_toolkit"]
+
+[project.scripts]
+mcp-agent = "agent.cli:main"
+
+[tool.setuptools]
+packages = ["agent", "agent.server"]

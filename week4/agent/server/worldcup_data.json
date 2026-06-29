@@ -1,0 +1,283 @@
+{
+  "demo_today": "2026-06-28",
+  "matches": [
+    {
+      "id": "match-73",
+      "date": "2026-06-28",
+      "kickoff": "2026-06-28T12:00:00",
+      "home": "South Africa",
+      "away": "Canada",
+      "stage": "Round of 32",
+      "city": "Inglewood",
+      "stadium": "SoFi Stadium",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 73
+    },
+    {
+      "id": "match-76",
+      "date": "2026-06-29",
+      "kickoff": "2026-06-29T12:00:00",
+      "home": "Brazil",
+      "away": "Japan",
+      "stage": "Round of 32",
+      "city": "Houston",
+      "stadium": "NRG Stadium",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 76
+    },
+    {
+      "id": "match-74",
+      "date": "2026-06-29",
+      "kickoff": "2026-06-29T16:30:00",
+      "home": "Germany",
+      "away": "Paraguay",
+      "stage": "Round of 32",
+      "city": "Foxborough",
+      "stadium": "Gillette Stadium",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 74
+    },
+    {
+      "id": "match-75",
+      "date": "2026-06-29",
+      "kickoff": "2026-06-29T19:00:00",
+      "home": "Netherlands",
+      "away": "Morocco",
+      "stage": "Round of 32",
+      "city": "Guadalupe",
+      "stadium": "Estadio BBVA",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 75
+    },
+    {
+      "id": "match-78",
+      "date": "2026-06-30",
+      "kickoff": "2026-06-30T12:00:00",
+      "home": "Ivory Coast",
+      "away": "Norway",
+      "stage": "Round of 32",
+      "city": "Arlington",
+      "stadium": "AT&T Stadium",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 78
+    },
+    {
+      "id": "match-77",
+      "date": "2026-06-30",
+      "kickoff": "2026-06-30T17:00:00",
+      "home": "France",
+      "away": "Sweden",
+      "stage": "Round of 32",
+      "city": "East Rutherford",
+      "stadium": "MetLife Stadium",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 77
+    },
+    {
+      "id": "match-79",
+      "date": "2026-06-30",
+      "kickoff": "2026-06-30T19:00:00",
+      "home": "Mexico",
+      "away": "Ecuador",
+      "stage": "Round of 32",
+      "city": "Mexico City",
+      "stadium": "Estadio Azteca",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 79
+    },
+    {
+      "id": "match-80",
+      "date": "2026-07-01",
+      "kickoff": "2026-07-01T12:00:00",
+      "home": "England",
+      "away": "DR Congo",
+      "stage": "Round of 32",
+      "city": "Atlanta",
+      "stadium": "Mercedes-Benz Stadium",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 80
+    },
+    {
+      "id": "match-82",
+      "date": "2026-07-01",
+      "kickoff": "2026-07-01T13:00:00",
+      "home": "Belgium",
+      "away": "Senegal",
+      "stage": "Round of 32",
+      "city": "Seattle",
+      "stadium": "Lumen Field",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 82
+    },
+    {
+      "id": "match-81",
+      "date": "2026-07-01",
+      "kickoff": "2026-07-01T17:00:00",
+      "home": "United States",
+      "away": "Bosnia and Herzegovina",
+      "stage": "Round of 32",
+      "city": "Santa Clara",
+      "stadium": "Levi's Stadium",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 81
+    },
+    {
+      "id": "match-84",
+      "date": "2026-07-02",
+      "kickoff": "2026-07-02T12:00:00",
+      "home": "Spain",
+      "away": "Austria",
+      "stage": "Round of 32",
+      "city": "Inglewood",
+      "stadium": "SoFi Stadium",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 84
+    },
+    {
+      "id": "match-83",
+      "date": "2026-07-02",
+      "kickoff": "2026-07-02T19:00:00",
+      "home": "Portugal",
+      "away": "Croatia",
+      "stage": "Round of 32",
+      "city": "Toronto",
+      "stadium": "BMO Field",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 83
+    },
+    {
+      "id": "match-85",
+      "date": "2026-07-02",
+      "kickoff": "2026-07-02T20:00:00",
+      "home": "Switzerland",
+      "away": "Algeria",
+      "stage": "Round of 32",
+      "city": "Vancouver",
+      "stadium": "BC Place",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 85
+    },
+    {
+      "id": "match-88",
+      "date": "2026-07-03",
+      "kickoff": "2026-07-03T13:00:00",
+      "home": "Australia",
+      "away": "Egypt",
+      "stage": "Round of 32",
+      "city": "Arlington",
+      "stadium": "AT&T Stadium",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 88
+    },
+    {
+      "id": "match-86",
+      "date": "2026-07-03",
+      "kickoff": "2026-07-03T18:00:00",
+      "home": "Argentina",
+      "away": "Cape Verde",
+      "stage": "Round of 32",
+      "city": "Miami Gardens",
+      "stadium": "Hard Rock Stadium",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 86
+    },
+    {
+      "id": "match-87",
+      "date": "2026-07-03",
+      "kickoff": "2026-07-03T20:30:00",
+      "home": "Colombia",
+      "away": "Ghana",
+      "stage": "Round of 32",
+      "city": "Kansas City",
+      "stadium": "Arrowhead Stadium",
+      "status": "scheduled",
+      "score": null,
+      "wiki_match": 87
+    }
+  ],
+  "groups": {
+    "A": [
+      {
+        "position": 1,
+        "team": "Mexico",
+        "played": 3,
+        "points": 7,
+        "goals_for": 5,
+        "goals_against": 2
+      },
+      {
+        "position": 2,
+        "team": "Argentina",
+        "played": 3,
+        "points": 6,
+        "goals_for": 6,
+        "goals_against": 3
+      },
+      {
+        "position": 3,
+        "team": "Canada",
+        "played": 3,
+        "points": 3,
+        "goals_for": 3,
+        "goals_against": 4
+      },
+      {
+        "position": 4,
+        "team": "Japan",
+        "played": 3,
+        "points": 1,
+        "goals_for": 2,
+        "goals_against": 7
+      }
+    ],
+    "B": [
+      {
+        "position": 1,
+        "team": "France",
+        "played": 3,
+        "points": 7,
+        "goals_for": 4,
+        "goals_against": 1
+      },
+      {
+        "position": 2,
+        "team": "Brazil",
+        "played": 3,
+        "points": 5,
+        "goals_for": 5,
+        "goals_against": 3
+      },
+      {
+        "position": 3,
+        "team": "USA",
+        "played": 3,
+        "points": 4,
+        "goals_for": 3,
+        "goals_against": 3
+      },
+      {
+        "position": 4,
+        "team": "Germany",
+        "played": 3,
+        "points": 1,
+        "goals_for": 2,
+        "goals_against": 7
+      }
+    ]
+  }
+}
