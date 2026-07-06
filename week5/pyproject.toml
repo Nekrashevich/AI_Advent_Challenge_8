@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "advent-week5-rag-mdn"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["requests", "rich", "prompt_toolkit", "numpy", "pypdf"]
+
+[project.scripts]
+rag-agent = "console:main"
+
+[tool.setuptools]
+py-modules = [
+    "checks",
+    "console",
+    "grounding",
+    "ingest",
+    "memory",
+    "model",
+    "searchflow",
+    "slicing",
+    "vectors",
+    "vectorstore",
+]
