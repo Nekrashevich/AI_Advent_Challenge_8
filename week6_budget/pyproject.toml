@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "advent-week6-budget"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["requests", "rich", "prompt_toolkit", "numpy", "fastapi", "uvicorn"]
+
+[project.scripts]
+budget-agent = "budget_agent.console:main"
+budget-server = "budget_agent.service:run"
+
+[tool.setuptools]
+packages = ["budget_agent"]
