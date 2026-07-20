@@ -1,0 +1,48 @@
+name: Week 7 Budget AI Review
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - "week7_budget/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: week7-budget-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    if: github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout trusted base commit
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: week7_budget/pyproject.toml
+
+      - name: Install reviewer
+        working-directory: week7_budget
+        run: python -m pip install .
+
+      - name: Review pull request
+        working-directory: week7_budget
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PROXY_API_KEY: ${{ secrets.PROXY_API_KEY }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: python -m budget_pipeline.review
+

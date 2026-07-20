@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "U-1001",
+      "name": "Анна Смирнова",
+      "email": "anna.demo@example.test",
+      "plan": "personal",
+      "timezone": "Europe/Moscow",
+      "accounts": ["ACC-MAIN-RUB"]
+    },
+    {
+      "id": "U-1002",
+      "name": "Илья Орлов",
+      "email": "ilya.demo@example.test",
+      "plan": "personal",
+      "timezone": "Europe/Moscow",
+      "accounts": ["ACC-SECOND-RUB"]
+    }
+  ],
+  "tickets": [
+    {
+      "id": "ADVENT-101",
+      "user_id": "U-1001",
+      "status": "open",
+      "subject": "Один обед учтён дважды",
+      "created_at": "2026-07-17T14:10:00+03:00",
+      "transaction_ids": ["TRANSACTION-3301", "TRANSACTION-3302"],
+      "messages": [
+        {
+          "role": "user",
+          "text": "После повторного импорта вижу два одинаковых списания 1 680 ₽ из кофейни. Итог месяца не должен удвоиться."
+        }
+      ]
+    },
+    {
+      "id": "ADVENT-102",
+      "user_id": "U-1001",
+      "status": "open",
+      "subject": "Возврат за наушники не появился в доходах",
+      "created_at": "2026-07-16T16:00:00+03:00",
+      "transaction_ids": ["TRANSACTION-3299", "TRANSACTION-3300"],
+      "messages": [
+        {
+          "role": "user",
+          "text": "Магазин оформил возврат 8 990 ₽, но доступный итог пока не изменился."
+        }
+      ]
+    },
+    {
+      "id": "ADVENT-103",
+      "user_id": "U-1001",
+      "status": "open",
+      "subject": "Бронирование в EUR не импортировалось",
+      "created_at": "2026-07-18T13:00:00+03:00",
+      "transaction_ids": ["TRANSACTION-3304"],
+      "messages": [
+        {
+          "role": "user",
+          "text": "Операция Foreign Booking помечена ошибкой. Почему она не входит в расходы?"
+        }
+      ]
+    }
+  ]
+}

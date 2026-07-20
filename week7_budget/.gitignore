@@ -1,0 +1,8 @@
+runtime/
+.venv/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+README.md
+JOURNAL-week7.md
+docs/
